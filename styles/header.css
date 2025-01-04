@@ -1,0 +1,52 @@
+.Header{
+ height: 45px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ background-color: rgb(58, 74, 179);
+ z-index: 100px;
+}
+
+.left-section {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  justify-content: space-between;
+  margin-right: 20px;
+  color: white;
+  padding-top: 12px;
+  
+  
+
+}
+
+.right-section {
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: white;
+  padding-top: 12px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 26px;
+  
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
