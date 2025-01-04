@@ -158,24 +158,6 @@ const html = `
     </main>
     `;
     
-    const form =document.getElementById ('form')
-
-    form.addEventListener('submit', function(event) {
-      event.preventDefault()
-      alert ("Thank you for contacting us, we will give you a feedback shortly")
-
-      const name = document.getElementById('name').value
-
-      console.log(name)
-
-      const email = document.getElementById('email').value
-
-      console.log (email)
-
-      const message = document.getElementById('Message').value
-
-      console.log (message)
-    })
 
     function showSidebar(){
       const sidebar = document.querySelector('.sidebar')
